@@ -1,13 +1,10 @@
-import '../styles/styles.css';
-import Person from './modules/Person';
+import '../styles/styles.css'
+import MobileMenu from './modules/MobileMenu'
 
 if (module.hot) {
   module.hot.accept()
 }
-// Lesson
 
- let john = new Person("john doe","pink");
- let maria = new Person("maria portugues","khaki");
+let mobileMenu = new MobileMenu()
 
- john.greet();
- maria.greet();
+ 
